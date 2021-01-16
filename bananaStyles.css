@@ -1,0 +1,79 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:wght@600&display=swap');
+
+
+:root {
+    /* --primary-color: #7C3AED; */
+    --primary-color: #fdfd96;
+    --dark-grey: #6B7280;
+    --off-white: #E5E7EB;
+}
+
+body {
+    font-family: 'Kodchasan', sans-serif;
+    margin: 0px;
+}
+
+div {
+    display: block;
+}
+
+.navigation {
+    background-color: var(--primary-color);
+    color:black;
+    padding: 1rem;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+main{
+    padding: 1rem;
+    margin:auto;
+    max-width: 600px;
+}
+
+textarea{
+
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    min-height: 20vh;
+    margin-top: 2rem;
+    font-size: large;
+    font-family:'Kodchasan';
+    padding:0.5rem;
+    
+}
+
+button{
+
+    background-color: var(--primary-color);
+    border: none;
+    margin: 1rem 0rem;
+    padding: 1rem 2rem;
+    font-family: 'Kodchasan', cursive;
+    font-size: large;
+}
+
+#output{
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 10vh;
+    max-height: 20vh;
+    overflow: scroll;
+    border: 1px solid black;
+
+}
+
+footer {
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color:black;
+    margin-top: 5rem;
+}
+footer p {
+    max-width: 600px;
+    margin: auto;
+}

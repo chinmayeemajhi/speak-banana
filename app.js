@@ -12,8 +12,8 @@ var btnTranslate = document.querySelector("#btn-translate");
 var txtInput = document.querySelector("#txt-input");
 var outputDiv = document.querySelector("#output");
 
-var urlServer = "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json";
-//var urlServer = "";
+//var urlServer = "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json";
+var urlServer = "https://api.funtranslations.com/translate/minion.json";
 
 function constructUrl(text) {
     var url = urlServer + "?" + "text=" + text;
