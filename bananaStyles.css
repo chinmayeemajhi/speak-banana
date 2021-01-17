@@ -4,14 +4,17 @@
 
 :root {
     /* --primary-color: #7C3AED; */
-    --primary-color: #fdfd96;
+    --primary-color: #60A5FA
+    ;
     --dark-grey: #6B7280;
-    --off-white: #E5E7EB;
+     --off-white: #E5E7EB;
+    
 }
 
 body {
     font-family: 'Kodchasan', sans-serif;
     margin: 0px;
+    background-color: #FDE68A;
 }
 
 div {
@@ -20,10 +23,10 @@ div {
 
 .navigation {
     background-color: var(--primary-color);
-    color:black;
-    padding: 1rem;
+    color: var(--off-white);
     font-weight: bold;
     text-align: center;
+    padding: 0.5rem;
     
 }
 
@@ -49,6 +52,7 @@ textarea{
 button{
 
     background-color: var(--primary-color);
+    color: var(--off-white);
     border: none;
     margin: 1rem 0rem;
     padding: 1rem 2rem;
@@ -57,12 +61,15 @@ button{
 }
 
 #output{
+    
     box-sizing: border-box;
+    background-color: white;
     width: 100%;
     min-height: 10vh;
     max-height: 20vh;
     overflow: scroll;
     border: 1px solid black;
+    margin-bottom: 1rem;
 
 }
 
@@ -70,8 +77,10 @@ footer {
     background-color: var(--primary-color);
     padding: 2rem 1rem;
     text-align: center;
-    color:black;
-    margin-top: 5rem;
+    color:var(--off-white);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 footer p {
     max-width: 600px;
