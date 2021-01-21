@@ -4,17 +4,17 @@
 
 :root {
     /* --primary-color: #7C3AED; */
-    --primary-color: #60A5FA
-    ;
+    --primary-color: #FCD34D;
     --dark-grey: #6B7280;
-     --off-white: #E5E7EB;
+    --off-white: #E5E7EB;
+    --yellow: #60A5FA;
     
 }
 
 body {
     font-family: 'Kodchasan', sans-serif;
     margin: 0px;
-    background-color: #FDE68A;
+   
 }
 
 div {
@@ -23,7 +23,7 @@ div {
 
 .navigation {
     background-color: var(--primary-color);
-    color: var(--off-white);
+    color: var(--yellow);
     font-weight: bold;
     text-align: center;
     padding: 0.5rem;
@@ -52,7 +52,7 @@ textarea{
 button{
 
     background-color: var(--primary-color);
-    color: var(--off-white);
+    color: var(--yellow);
     border: none;
     margin: 1rem 0rem;
     padding: 1rem 2rem;
@@ -77,7 +77,7 @@ footer {
     background-color: var(--primary-color);
     padding: 2rem 1rem;
     text-align: center;
-    color:var(--off-white);
+    color:var(--yellow);
     position: fixed;
     bottom: 0;
     width: 100%;
